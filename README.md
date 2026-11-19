@@ -2,6 +2,8 @@
 
 Präsentationsfähige To-Do-App mit React und Vite.
 
+![Vorschau der To-Do-App](docs/preview.png)
+
 ## Funktionen
 
 - Aufgaben hinzufügen
