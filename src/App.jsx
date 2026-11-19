@@ -1,7 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import './App.css'
 
-const STORAGE_KEY = 'reacttodoapp.tasks.v1'
+const STORAGE_KEY = 'todo-app.tasks.v1'
 const HISTORY_LIMIT = 100
 
 const STARTER = [
@@ -191,7 +191,7 @@ function App() {
     <div className="page">
       <header className="hero">
         <div className="hero-top">
-          <p className="eyebrow">React Todo App</p>
+          <p className="eyebrow">To-Do-App</p>
           <button
             type="button"
             className="ghost help-btn"

@@ -18,13 +18,13 @@ If Not fso.FileExists(nodeExe) Then
   nodeExe = Trim(sh.ExpandEnvironmentStrings("%LOCALAPPDATA%\Programs\nodejs\node.exe"))
 End If
 If Not fso.FileExists(nodeExe) Then
-  MsgBox "Node.js wurde nicht gefunden. Bitte Node.js installieren.", vbExclamation, "React Todo App"
+  MsgBox "Node.js wurde nicht gefunden. Bitte Node.js installieren.", vbExclamation, "To-Do-App"
   WScript.Quit 1
 End If
 
 viteJs = dir & "\node_modules\vite\bin\vite.js"
 If Not fso.FileExists(viteJs) Then
-  MsgBox "Vite fehlt. Bitte einmalig im Projektordner 'npm install' ausführen.", vbExclamation, "React Todo App"
+  MsgBox "Vite fehlt. Bitte einmalig im Projektordner 'npm install' ausführen.", vbExclamation, "To-Do-App"
   WScript.Quit 1
 End If
 

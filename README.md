@@ -1,6 +1,6 @@
-# React Todo App
+# To-Do-App
 
-Präsentationsfähige Todo-App mit React und Vite.
+Präsentationsfähige To-Do-App mit React und Vite.
 
 ## Funktionen
 
