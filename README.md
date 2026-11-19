@@ -8,7 +8,7 @@ Präsentationsfähige To-Do-App mit React und Vite.
 - Bearbeiten und speichern
 - Als erledigt markieren
 - Löschen
-- Filter: Alle / Offen / Erledigt
+- Filter: Offen (Standard) / Erledigt / Alle
 - Erledigte auf einmal entfernen
 - Rückgängig / Wiederholen (Strg+Z / Strg+Y)
 - Persistenz über `localStorage`
@@ -17,7 +17,3 @@ Präsentationsfähige To-Do-App mit React und Vite.
 
 - Start: Doppelklick auf `START` (Verknüpfung) — ohne CMD-Fenster
 - Stopp: Doppelklick auf `STOP`
-
-## Archiv
-
-Das frühere Lernprojekt liegt unter `archiv/bucket-list-lernprojekt` (nur Anzeigen + Hinzufügen).
