@@ -1,0 +1,66 @@
+:root {
+  --bg: #0f1412;
+  --bg-elevated: #18201c;
+  --line: rgba(232, 240, 234, 0.12);
+  --text: #eef4ef;
+  --muted: #9aada2;
+  --accent: #c8f26d;
+  --accent-ink: #14200a;
+  --danger: #ff7b72;
+  --ok: #6de0b2;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --radius: 18px;
+  --font: "Outfit", "Segoe UI", sans-serif;
+  --display: "Source Serif 4", Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--text);
+  background:
+    radial-gradient(900px 480px at 12% -10%, rgba(200, 242, 109, 0.16), transparent 55%),
+    radial-gradient(700px 420px at 100% 0%, rgba(109, 224, 178, 0.1), transparent 50%),
+    linear-gradient(180deg, #121916 0%, var(--bg) 45%, #0c100e 100%);
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(238, 244, 239, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(238, 244, 239, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at 50% 20%, black, transparent 75%);
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
