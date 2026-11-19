@@ -2,7 +2,7 @@
 
 Präsentationsfähige To-Do-App mit React und Vite.
 
-![Vorschau der To-Do-App](docs/preview.png)
+![Vorschau der To-Do-App](media/preview.png)
 
 ## Funktionen
 
